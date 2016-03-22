@@ -1,0 +1,149 @@
+/*CSS reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+
+/*General Styles*/
+
+html {
+    background: url("../images/Map.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Dancing Script', cursive;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'EB Garamond', serif;
+}
+
+section {
+    max-width: 50rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.scroll {
+    width: 30%;
+    display: inline-block;
+    height: 20rem;
+    background: url("../images/scroll.png") no-repeat;
+    background-size: 100%;
+}
+
+.scroll h2 {
+    padding-top: 2.5rem;
+    font-size: 0.9rem;
+}
+
+.scroll h2,
+p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.shadow {
+    text-shadow: 0.3px 0.3px #fffeea;
+}
+
+input {
+    margin-top: .5rem;
+}
+
+.quiz > * {
+    vertical-align: top;
+}
+/*Header Styles*/
+
+header {
+    text-align: center;
+    margin-top: -1rem;
+    font-size: 2rem;
+}
+
+
+/*Content Styles*/
+
+.instructions {
+    text-align: center;
+    width: 80%;
+    margin: -2rem auto 0 auto;
+}
+
+.instructions * {
+    padding: .25rem;
+}
+
+.instructions h2 {
+    font-size: 1.75rem;
+}
+
+.instructions p {
+    font-size: 1.3rem;
+}
+
+.gamebtn {
+    border-radius: 15px;
+    background-color: #eee2c6;
+    padding: .25rem;
+    margin-top: 1rem;
+}
+
+.quiz {
+    text-align: center;
+}
+
+label {
+    vertical-align: middle;
+}
+
+.scroll form {
+    text-align: left;
+    padding-left: 1.6rem;
+}
+
+.quizBtn {
+    padding: 0.25rem 0.5rem;
+    border-radius: 15px;
+    margin: .35rem;
+    background-color: #a17a45;
+}
+
+.results {
+    text-align: center;
+    margin-top: 4rem;
+}
+.results h2 {
+        font-size: 4rem;
+}
+.correct {
+    color: green;
+}
+.wrong {
+    color: red;
+    text-decoration: line-through;
+}
+
+/*footer styles*/
+
+
+/*responsive styles*/

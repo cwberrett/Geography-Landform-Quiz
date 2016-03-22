@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Landforms Quiz</title>
+    <link href="http://fonts.googleapis.com/css?family=Dancing+Script:700|EB+Garamond" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Landforms of the World</h1>
+    </header>
+    <section class="instructions shadow">
+        <h2>Intstructions:</h2>
+        <p>To play the quiz, select the appropriate country from the left side and the appropriate name from the right side. To begin click the start button.</p>
+        <button class="gamebtn" id="start">Start Quiz!</button>
+    </section>
+    <section class="quiz">
+        <div class="scroll">
+            <h2>Choose the Correct Place</h2>
+            <form id="countryOps">
+            </form>
+        </div>
+        <div class="scroll">
+            <h2 id="quizNum"></h2>
+            <p id="question"></p>
+            <button class="quizBtn" id='submit'>Submit</button>
+            <button class="quizBtn" id='next'> Next Question </button>
+            <h3 id="score">0 out of 10 Correct</h3>
+        </div>
+        <div class="scroll">
+            <h2>Choose the Correct Name</h2>
+            <form id="landformOps">
+
+            </form>
+        </div>
+    </section>
+    <section class="results shadow">
+        <h2>You Scored: </h2>
+        <button class="gamebtn" id="replay">Try Again!</button>
+    </section>
+    <script src="../jquery-2.1.4.min.js"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+</body>
+
+</html>
