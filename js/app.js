@@ -32,23 +32,13 @@ var index = 0;
 
 //updates the questions and radio buttons
 function addQuestion(num) {
-    // $('#quizNum').text('Question number: ' + (num+1));
-    // $('#question').text(questions[num].question);
-    // $('#landform1').text(questions[num].names[0]);
-    // $('#landform2').text(questions[num].names[1]);
-    // $('#landform3').text(questions[num].names[2]);
-    // $('#landform4').text(questions[num].names[3]);
-    // $('#country1').text(questions[num].countries[0]);
-    // $('#country2').text(questions[num].countries[1]);
-    // $('#country3').text(questions[num].countries[2]);
-    // $('#country4').text(questions[num].countries[3]);
     $('#quizNum').text('Question number: ' + (num + 1));
     $('#question').text(questions[num].question);
     for (var i = 0; i < questions[num].names.length; i++) {
         $('#landformOps').append('<input type="radio" name="landform" value="' + i + '"> <span id="l' + i + '">' + questions[num].names[i] + '</span><br>');
     }
     for (var j = 0; j < questions[num].countries.length; j++) {
-        $("#countryOps").append('<input type="radio" name="country" value="' + j + '"><span id="c' + j + '">' + questions[num].countries[j] + '</span><br>');
+        $("#countryOps").append('<input type="radio" name="country" value="' + j + '"> <span id="c' + j + '">' + questions[num].countries[j] + '</span><br>');
     }
 }
 //tells whether correct or not, gives the correct answer and updates the total
