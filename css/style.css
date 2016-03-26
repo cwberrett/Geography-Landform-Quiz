@@ -171,10 +171,11 @@ header {
         font-size: 1.5em;
     }
     .scroll {
-        display: block;
+        display: inline-block;
         height: 16rem;
         width: 40%;
         margin: 0 auto;
+        max-width: 195px;
     }
     .answer h2 {
         padding-top: 1.5rem;
@@ -195,7 +196,8 @@ header {
         font-size: 1.2em;
     }
     .scroll {
-        width: 53%;
+        min-width: 165px;
+        max-width: 173px;
     }
     .results h2 {
         font-size: 3rem;

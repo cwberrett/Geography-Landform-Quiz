@@ -4,26 +4,26 @@ var questions = [{
     names: ['Atacama Desert', 'Sahara Desert', 'Gobi Desert', 'Sonoran Desert'],
     countries: ['China', 'Chile', "Mexico", "Algeria"],
     answer: [2, 0]
-// }, {
-//     question: "Question 2 Question 2 Question 2 Question 2 Question 2 Question 2 Question 2",
-//     names: ['Name 2', 'Name 2', 'Name 2', 'Name 2'],
-//     countries: ['country2', 'country', 'country2', 'country2'],
-//     answer: [3, 1]
-// }, {
-//     question: "This mountain range is the longest range in the world.",
-//     names: ['Rocky Mountains', 'Andes Mountains', 'Himalayas', 'Sierra Nevadas'],
-//     countries: ['China', 'Canada', "United States", "Chile"],
-//     answer: [3, 1]
-// }, {
-//     question: "Question 4 Question 4 Question 4 Question 4 Question 4 Question 4 Question 4",
-//     names: ['Name 4', 'Name 4', 'Name 4', 'Name 4'],
-//     countries: ['country4', 'countr4', 'country4', 'country4'],
-//     answer: [3, 1]
-// }, {
-//     question: "Question 5 Question 5 Question 5 Question 5 Question 5 Question 5 Question 5",
-//     names: ['Name 5', 'Name 5', 'Name 5', 'Name 5'],
-//     countries: ['country5', 'countr5', 'country5', 'country5'],
-//     answer: [3, 1]
+}, {
+    question: "This canyon is the deepest canyon/gorge in the world.",
+    names: ['Grand Canyon', 'Todra Gorge', 'Cotahuasi Canyon', 'Kings Canyon'],
+    countries: ['Peru', 'United States', 'Morocco', 'Austailia'],
+    answer: [2, 0]
+}, {
+    question: "This mountain range is the longest range in the world.",
+    names: ['Rocky Mountains', 'Andes Mountains', 'Himalayas', 'Sierra Nevadas'],
+    countries: ['China', 'Canada', "United States", "Chile"],
+    answer: [1, 3]
+}, {
+    question: "These cliffs are famous for their bright white color.",
+    names: ['Cliffs of Moher', 'Cliffs of Dover', 'Al Hajjara', 'Preikestolen Cliff'],
+    countries: ['United Kingdom', 'Yemen', 'Ireland', 'Norway'],
+    answer: [1, 0]
+}, {
+    question: "This Oasis is famous for being the site where Alexander the Great visited the Oracle of Amun",
+    names: ["Umm al-Maa', 'Siwa Oasis', 'Timia Oasis', 'Abraham\'s Oasis"],
+    countries: ['Niger', 'Egypt', 'Syria', 'Libya'],
+    answer: [1, 1]
  }];
 var score = 0;
 var index = 0;
